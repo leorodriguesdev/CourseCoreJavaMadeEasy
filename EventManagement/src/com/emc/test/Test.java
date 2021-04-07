@@ -14,11 +14,8 @@ public class Test {
 		System.out.println(organizer);
 		System.out.println(organizer.name);
 		
-		Event event = new Event();
-		event.id = (long) 4561;
-		event.name = "Iphone 100 Launch";
-		event.description = "Grand Launch";
-		
+		Event event = new Event((long) 4561, "Iphone 100 Launch", "Grand Launch");
+
 		System.out.println(event.description);
 		
 	}

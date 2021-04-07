@@ -1,8 +1,7 @@
 package com.emc.entities;
 
-public class Venue {
-	public Long id;
-	public String name;
+public class Venue extends EMBase {
+
 	public String description;
 	public String streetAndress;
 	public String city;
